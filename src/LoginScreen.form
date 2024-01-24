@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="LoginScreen">
+  <grid id="27dc6" binding="LoginScreenPanel" layout-manager="GridLayoutManager" row-count="13" column-count="16" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="521" height="419"/>
+    </constraints>
+    <properties>
+      <background color="-13850373"/>
+      <foreground color="-199937"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <hspacer id="fc85a">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="b037f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="11" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="16"/>
+          <foreground color="-199937"/>
+          <text value="Identity Number"/>
+        </properties>
+      </component>
+      <component id="ffc68" class="javax.swing.JTextField" binding="identityNumField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="12" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-199937"/>
+          <font name="Berlin Sans FB Demi" size="16"/>
+          <foreground color="-13850373"/>
+        </properties>
+      </component>
+      <component id="da1fd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="12" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="16"/>
+          <foreground color="-199937"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="45394" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="12" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-199937"/>
+          <foreground color="-13850373"/>
+        </properties>
+      </component>
+      <hspacer id="5e210">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="3a2aa">
+        <constraints>
+          <grid row="2" column="13" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="a5cb8">
+        <constraints>
+          <grid row="12" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="f9354" class="javax.swing.JButton" binding="registerButton">
+        <constraints>
+          <grid row="6" column="10" row-span="3" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13850373"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font name="Berlin Sans FB Demi" size="16"/>
+          <foreground color="-199937"/>
+          <opaque value="true"/>
+          <selected value="true"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <component id="e766b" class="javax.swing.JButton" binding="loginButton">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13850373"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font name="Berlin Sans FB Demi" size="16"/>
+          <foreground color="-199937"/>
+          <opaque value="true"/>
+          <selected value="true"/>
+          <text value="Sign In"/>
+        </properties>
+      </component>
+      <component id="b7216" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Berlin Sans FB Demi" size="36"/>
+          <foreground color="-199937"/>
+          <text value="Sign In"/>
+        </properties>
+      </component>
+      <vspacer id="610fa">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
